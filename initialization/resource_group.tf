@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "rg_demo" {
-  name     = "terraformdemo"
-  location = "East US"
+  name     = var.rg_name
+  location = var.region
 }
